@@ -11,3 +11,4 @@ variable "GOOGLE_REGION" {
 variable "GKE_NUM_NODES" {
   type        = number
   description = "GKE nodes number"
+}
