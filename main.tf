@@ -22,7 +22,7 @@ module "flux_bootstrap" {
 }
 
 module "tls_private_key" {
-  source = "./modules/tf-hashicorp-tls-keys"
+  source    = "./modules/tf-hashicorp-tls-keys"
   algorithm = "RSA"
 }
 
