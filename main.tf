@@ -28,7 +28,7 @@ module "tls_private_key" {
 
 terraform {
   backend "gcs" {
-    bucket = "bucketeuropewest2"
+    bucket = "terbucket"
     prefix = "terraform/state"
   }
 }
