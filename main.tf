@@ -36,7 +36,7 @@ terraform {
   }
 }
 
-module "gke-workload-identety" {
+module "gke-workload-identity" {
   source              = "terraform-google-modules/kubernetes-engine/google//modules/workload-identity"
   use_existing_k8s_sa = true
   name                = "kustomize-controller"
