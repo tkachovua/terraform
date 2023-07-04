@@ -44,7 +44,7 @@ module "gke-workload-identety" {
   project_id = var.GOOGLE_PROJECT
   cluster_name = "main"
   location = var.GOOGLE_REGION
-  anotate_k8s_sa = true
+  annotate_k8s_sa = true
   roles = ["roles/cloudkms.cryptoKeyEncrypterDecrypter"]
 }
 
