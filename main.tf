@@ -31,7 +31,7 @@ module "tls_private_key" {
 
 terraform {
   backend "gcs" {
-    bucket = "state-bucket-0"
+    bucket = "state-bucket-flux"
     prefix = "terraform/state"
   }
 }
